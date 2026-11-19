@@ -1,0 +1,7 @@
+*.pdf
+**/*.o
+rijndael/rijndael
+serpent/serpent
+twofish/twofish
+Dockerfile
+.dockerignore

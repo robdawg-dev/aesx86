@@ -1,0 +1,3 @@
+nasm -f elf rijndael.asm
+gcc -c -o rijndaelTest.o rijndaelTest.c -std=c99
+gcc rijndael.o rijndaelTest.o -o rijndael

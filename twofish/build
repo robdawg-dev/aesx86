@@ -1,0 +1,3 @@
+nasm -f elf twofish.asm
+gcc -c -o twofishTest.o twofishTest.c -std=c99
+gcc twofish.o twofishTest.o -o twofish
